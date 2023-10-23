@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.navBar{
+    overflow:hidden;
+    background-color: #14e0ff81;
+}
+
+.navBar a {
+    float:left;
+    color: #000000;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size:17px;
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navBar a:hover{
+    background-color: black;
+    color:white;
+}
