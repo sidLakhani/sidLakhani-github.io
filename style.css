@@ -6,14 +6,14 @@ body{
 
 .navBar{
     overflow:hidden;
-    background-color: #14e0ff81;
+    background-color: #e5e1a39f;
 }
 
 .navBar a {
     float:left;
     color: #000000;
     text-align: center;
-    padding: 20px 40px;
+    padding: 40px 80px;
     text-decoration: none;
     font-size:17px;
     font-style: bold;
@@ -23,4 +23,12 @@ body{
 .navBar a:hover{
     background-color: black;
     color:white;
+}
+
+.navBar h1{
+    padding: 15px 15px 15px 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    font-size: 25px;
+    font-style: bold;
 }
