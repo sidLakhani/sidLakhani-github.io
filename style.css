@@ -4,31 +4,79 @@ body{
     background-color: #f2f2f2;
 }
 
-.navBar{
-    overflow:hidden;
-    background-color: #e5e1a39f;
+.navBar  {
+    overflow: hidden;
+    background-color: #fff0db;
 }
-
+  
 .navBar a {
-    float:left;
-    color: #000000;
-    text-align: center;
-    padding: 40px 80px;
-    text-decoration: none;
-    font-size:17px;
-    font-style: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.navBar a:hover{
-    background-color: black;
-    color:white;
-}
-
-.navBar h1{
-    padding: 15px 15px 15px 15px;
-    font-family: "Lucida Console", "Courier New", monospace;
+    float: left;
     color: black;
+    text-align: center;
+    padding: 45px 200px;
+    text-decoration: none;
     font-size: 25px;
-    font-style: bold;
 }
+  
+.navBar a:hover {
+    background-color: white;
+    color: black;
+}
+  
+.navBar a.active {
+    
+    color: black;
+}
+
+.name {
+    font-family: 'Prata', serif;
+    
+}
+
+
+
+
+/* Additional styles for the dropdown menu */
+/* Additional styles for the dropdown menu */
+
+
+.dropdown-content {
+    display: none;
+    position: 
+    background-color: #fff0db;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Updated styles for the name class */
+.name {
+    font-family: 'Prata', serif;
+    padding: 14px 16px; /* Adjust padding to match other buttons */
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.name:hover {
+    background-color: #ddd;
+    color: black;
+}
+
